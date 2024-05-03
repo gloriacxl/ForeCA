@@ -6,7 +6,7 @@ This is the code for paper : Leveraging Foreground Collaboration and Augmentatio
 * [MPDD dataset](https://ieeexplore.ieee.org/abstract/document/9631567)
 
 # Experimental Results
-![image]()
+![image](https://github.com/gloriacxl/ForeCA/blob/main/figs/experimentalresults.PNG)
 
 # Visualization
-![image]()
+![image](https://github.com/gloriacxl/ForeCA/blob/main/figs/visualization.png)
