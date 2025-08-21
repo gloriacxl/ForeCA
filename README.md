@@ -19,4 +19,15 @@ We provide our model checkpoints to reproduce the performance report in the papa
 ---
 UPDATE:
 
-<pre> ```bibtex @article{chen2024leveraging, title={Leveraging Foreground Collaboration and Augmentation for Industrial Anomaly Detection}, author={Chen, Xiaolu and Xu, Haote and Wang, Jiaxiang and Tu, Xiaotong and Ding, Xinghao and Huang, Yue}, journal={IEEE Sensors Journal}, volume={24}, number={19}, pages={30706--30714}, year={2024}, publisher={IEEE} } ``` </pre>
+# Citation
+```bibtex
+@article{chen2024leveraging,
+  title={Leveraging Foreground Collaboration and Augmentation for Industrial Anomaly Detection},
+  author={Chen, Xiaolu and Xu, Haote and Wang, Jiaxiang and Tu, Xiaotong and Ding, Xinghao and Huang, Yue},
+  journal={IEEE Sensors Journal},
+  volume={24},
+  number={19},
+  pages={30706--30714},
+  year={2024},
+  publisher={IEEE}
+}
