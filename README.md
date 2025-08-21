@@ -1,7 +1,7 @@
 # Leveraging Foreground Collaboration and Augmentation for Industrial Anomaly Detection
-This is the code for paper : Leveraging Foreground Collaboration and Augmentation for Industrial Anomaly Detection
+This is the code for paper : Leveraging Foreground Collaboration and Augmentation for Industrial Anomaly Detection [IEEE Sensors Journal 24']
 
-Complete codes will be available upon acceptance:)
+~~Complete codes will be available upon acceptance:)~~
 
 # Datasets
 * [VisA dataset](https://link.springer.com/chapter/10.1007/978-3-031-20056-4_23)
