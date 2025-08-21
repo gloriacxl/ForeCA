@@ -16,8 +16,7 @@ We provide our model checkpoints to reproduce the performance report in the papa
 # Visualization
 ![image](https://github.com/gloriacxl/ForeCA/blob/main/figs/visualization.png)
 
----
-UPDATE:
+=========UPDATE=========
 
 # Citation
 ```bibtex
