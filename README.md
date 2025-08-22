@@ -17,8 +17,24 @@ We provide our model checkpoints to reproduce the performance report in the papa
 ![image](https://github.com/gloriacxl/ForeCA/blob/main/figs/visualization.png)
 
 ===================================UPDATE===================================
+# Evaluating
+You need to set data_path to the directory where your dataset is stored, and place the downloaded checkpoint in checkpoint_path.
+```python
+python test_ForeCA.py
+```
+
+or you can use the shell script,
+```python
+bash test_ForeCA.sh
+```
+
+# Training
+```python
+python train_ForeCA.py
+```
 
 # Citation
+If you find this project helpful for your research, please consider citing this paper:
 ```bibtex
 @article{chen2024leveraging,
   title={Leveraging Foreground Collaboration and Augmentation for Industrial Anomaly Detection},
