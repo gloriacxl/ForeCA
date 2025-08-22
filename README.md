@@ -18,7 +18,7 @@ We provide our model checkpoints to reproduce the performance report in the papa
 
 ===================================UPDATE===================================
 # Evaluating
-You need to set data_path to the directory where your dataset is stored, and place the downloaded checkpoint in checkpoint_path.
+You need to set **data_path** to the directory where your dataset is stored, and place the downloaded checkpoint in **checkpoint_path**.
 ```python
 python test_ForeCA.py
 ```
@@ -29,9 +29,11 @@ bash test_ForeCA.sh
 ```
 
 # Training
+If you want to train a model from scratch, the train script is as follows,
 ```python
 python train_ForeCA.py
 ```
+Here, **data_path** refers to the directory that contains your dataset along with its foreground masks. You can obtain it from here, or generate it yourself using other segmentation models.
 
 # Citation
 If you find this project helpful for your research, please consider citing this paper:
