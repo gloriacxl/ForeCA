@@ -230,7 +230,6 @@ if __name__ == "__main__":
     parser.add_argument('--a', type=float, default=1)  
     parser.add_argument('--b', type=float, default=1)  
     parser.add_argument("--config", type=str, default="./duts-dino-k234-nq20-224-swav-mocov2-dino-p16-sr10100.yaml")
-    parser.add_argument("--p_state_dict", type=str, default="./selfmask_nq20.pt")
     parser.add_argument("--suffix", type=str, default='')
     
     args: Namespace = parser.parse_args()
@@ -239,7 +238,6 @@ if __name__ == "__main__":
     args: dict = vars(args)
     args.update(base_args)
     args: Namespace = Namespace(**args)
-    dir_ckpt = f"{os.path.dirname(args.p_state_dict)}"
     torch.backends.cudnn.benchmark = False
 
     base_model_name = 'train_ForeCA'+'_lr' + str(args.lr) +'_epochs'+str(args.epochs)+'_bs'+str(args.batch_size)+'_'+'VisA'+str(args.obj_id) + '/'

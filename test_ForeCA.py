@@ -192,7 +192,6 @@ if __name__ == "__main__":
     parser.add_argument('--checkpoint_interval', type=int, default=50)  
     parser.add_argument('--image_visual_interval', type=int, default=100)  
     parser.add_argument("--config", type=str, default="./duts-dino-k234-nq20-224-swav-mocov2-dino-p16-sr10100.yaml")
-    parser.add_argument("--p_state_dict", type=str, default="./selfmask_nq20.pt")
     parser.add_argument('--seed', default=0, type=int)
     parser.add_argument("--suffix", type=str, default='')
     
@@ -202,7 +201,6 @@ if __name__ == "__main__":
     args: dict = vars(args)
     args.update(base_args)
     args: Namespace = Namespace(**args)
-    dir_ckpt = f"{os.path.dirname(args.p_state_dict)}"
     torch.backends.cudnn.benchmark = False
 
     obj_batch = [['candle'],        #0
