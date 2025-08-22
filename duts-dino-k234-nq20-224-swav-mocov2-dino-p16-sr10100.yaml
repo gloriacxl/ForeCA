@@ -4,8 +4,8 @@ scale_range: [ 0.1, 1.0 ]
 repeat_image: false
 
 # base directories
-dir_ckpt: "/home/chenxl/code/selfmask-demo/checkpoint"  # "/work/gyungin/selfmask/ckpt"
-dir_dataset: "/home/chenxl/code/selfmask-demo/chewinggumtest0412/ori"
+dir_ckpt: None  
+dir_dataset: None
 
 # clustering
 k: [2, 3, 4]
@@ -20,7 +20,7 @@ use_pseudo_masks: true
 # eval_image_size: 224
 n_percent: 100
 n_copy_pastes: null
-pseudo_masks_fp: "/home/chenxl/code/selfmask-demo/your_pseudo_masks.json"
+pseudo_masks_fp: None
 
 # dataloader:
 # batch_size: 1
