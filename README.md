@@ -33,7 +33,7 @@ If you want to train a model from scratch, the train script is as follows,
 ```python
 python train_ForeCA.py
 ```
-Here, **data_path** refers to the directory that contains your dataset along with its foreground masks. You can obtain it from here, or generate it yourself using other segmentation models.
+Here, **data_path** refers to the directory that contains your dataset along with its foreground masks. You can obtain it from [Google Drive](https://drive.google.com/drive/folders/1B1ryBLPw9VLDzI3vxokaImGcK5jXoHlj?usp=sharing), or generate it yourself using other segmentation models.
 
 # Citation
 If you find this project helpful for your research, please consider citing this paper:
